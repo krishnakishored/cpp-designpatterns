@@ -1,0 +1,1 @@
+add_library(libtemplatemethod behavioral_templatemethod.cpp)

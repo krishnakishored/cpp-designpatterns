@@ -1,0 +1,13 @@
+
+
+In case you wonder, CMakeLists.txt is the input file of CMake.
+CMake is a command line tool used to control the software compilation process and it can be used for cross-platform software development. 
+So in micro-services land is key to be cross-platform and as of today C++ is the greatest cross-platform language of all.
+
+//Links
+https://medium.com/audelabs/c-development-using-visual-studio-code-cmake-and-lldb-d0f13d38c563
+https://www.johnlamp.net/cmake-tutorial-1-getting-started.html
+
+https://stackoverflow.com/questions/20746232/how-to-properly-setup-googletest-on-os-x-aside-from-xcode
+
+https://stackedit.io/app#

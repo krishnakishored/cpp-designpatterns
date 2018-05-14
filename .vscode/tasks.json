@@ -1,0 +1,68 @@
+
+
+{
+
+// See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "sh",
+    "type": "shell",// "isShellCommand": true,
+    "args": ["-c"],
+    "presentation": {
+        "echo": true,
+        "reveal": "always",// "showOutput": "always",
+        "focus": false,
+        "panel": "shared"
+    },
+    "options": {
+        "cwd": "${workspaceRoot}/build"
+    },
+    "tasks": [
+        {
+            "label": "cmake",
+            "suppressTaskName": true,
+            "args": [
+                "cmake -G \"Unix Makefiles\" -DCMAKE_BUILD_TYPE=Debug .."
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "make",
+            "args": [
+                "make -j 8"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
+
+
+// {
+//     // See https://go.microsoft.com/fwlink/?LinkId=733558
+//     // for the documentation about the tasks.json format
+
+
+//         // {
+//         //     "label": "echo",
+//         //     "type": "shell",
+//         //     "command": "echo Hello",
+//         //     "group": {
+//         //         "kind": "build",
+//         //         "isDefault": true
+//         //     },
+//         //     "problemMatcher": [
+//         //         "$gcc"
+//         //     ]
+//         // }
+        
+    
+// }
+/*
+ * the property “tasks” is an array of tasks we require, in this case the task “cmake” which allows us to generate all the build files required to generate a binary executable; 
+ * in this case we and the task “make” that allows us to build our executable.
+
+
+ */

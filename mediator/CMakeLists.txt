@@ -1,0 +1,1 @@
+add_library(libmediator behavioral_mediator_soccer.cpp)

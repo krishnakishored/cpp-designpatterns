@@ -1,0 +1,1 @@
+add_library(libchainofresponsibility behavioral_chainofresponsibility_corbroker.cpp behavioral_chainofresponsibility_corpointer.cpp)

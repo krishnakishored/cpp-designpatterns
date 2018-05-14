@@ -1,0 +1,1 @@
+add_library(libcommand behavioral_command_undo.cpp behavioral_command.cpp behavioral_command_composite.cpp)

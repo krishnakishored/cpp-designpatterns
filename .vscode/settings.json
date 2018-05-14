@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "*.tcfg": "txt",
+        "iosfwd": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "memory": "cpp",
+        "__locale": "cpp",
+        "bitset": "cpp",
+        "*.ipp": "cpp",
+        "__functional_base": "cpp",
+        "__functional_base_03": "cpp",
+        "__tree": "cpp",
+        "__tuple": "cpp",
+        "array": "cpp",
+        "chrono": "cpp",
+        "functional": "cpp",
+        "limits": "cpp",
+        "ratio": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
+    }
+}

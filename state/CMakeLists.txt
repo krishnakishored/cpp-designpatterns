@@ -1,0 +1,1 @@
+add_library(libstate behavioral_state_classic.cpp behavioral_state_handmade.cpp behavioral_state_msm.cpp)

@@ -1,0 +1,1 @@
+add_library(libstrategy behavioral_strategy_static.cpp behavioral_strategy_dynamic.cpp)

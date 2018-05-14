@@ -1,0 +1,2 @@
+# add_library(libvisitor behavioral_visitor_acyclic.cpp behavioral_visitor_double.cpp behavioral_visitor_intrusive.cpp behavioral_visitor_multimethods.cpp behavioral_visitor_reflective.cpp behavioral_visitor_std_visit.cpp)
+add_library(libvisitor behavioral_visitor_acyclic.cpp behavioral_visitor_double.cpp behavioral_visitor_intrusive.cpp behavioral_visitor_multimethods.cpp behavioral_visitor_reflective.cpp)

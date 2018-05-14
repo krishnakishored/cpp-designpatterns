@@ -1,0 +1,1 @@
+add_library(libinterpreter behavioral_interpreter_handmade.cpp)
