@@ -1,0 +1,1 @@
+add_library(libadapter behavioral_adapter.cpp behavioral_adapter_basic.cpp)

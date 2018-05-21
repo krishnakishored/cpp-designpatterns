@@ -13,6 +13,7 @@ set(CMAKE_CXX_FLAGS "-Wall -std=c++14 -DCXX11")
 
 
 add_subdirectory(SOLID)
+add_subdirectory(adapter)
 add_subdirectory(builder)
 add_subdirectory(factories)
 add_subdirectory(prototype)
@@ -33,7 +34,7 @@ add_subdirectory(visitor)
 
 # add_executable(${PROJECT_NAME} ${SOURCE})
 add_executable(${PROJECT_NAME} hello.cpp)
-target_link_libraries(${PROJECT_NAME} libsolid libbuilder libfactories libprototype libsingleton libbridge libdecorator libflyweight libchainofresponsibility libcommand libinterpreter libiterator libmediator libstate libstrategy libtemplatemethod libvisitor)
+target_link_libraries(${PROJECT_NAME} libsolid libadapter libbuilder libfactories libprototype libsingleton libbridge libdecorator libflyweight libchainofresponsibility libcommand libinterpreter libiterator libmediator libstate libstrategy libtemplatemethod libvisitor)
 
 
 # sets GTEST_INCLUDE_DIRS and GTEST_LIBRARIES
