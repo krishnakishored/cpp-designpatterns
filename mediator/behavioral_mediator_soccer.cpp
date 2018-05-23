@@ -77,7 +77,7 @@ struct Coach
   }
 };
 
-int main()
+int main_mediator_soccer()
 {
   Game game;
   Player player{ "Sam", game };

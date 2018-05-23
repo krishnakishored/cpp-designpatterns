@@ -1,1 +1,1 @@
-add_library(libadapter behavioral_adapter.cpp behavioral_adapter_basic.cpp)
+add_library(libadapter structural_adapter_vince.cpp structural_adapter_basic_vince.cpp)

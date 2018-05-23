@@ -47,7 +47,7 @@ class WimpyTime : private ManlyTime
         }
     };
 
-// On the left, WimpyTime "hasa" instance of the legacy component, and delegates the "heavy lifting" to it. 
+// On the left, WimpyTime "has_a" instance of the legacy component, and delegates the "heavy lifting" to it. 
 
 class WimpyTime_2 {                             
     public:                                       
@@ -76,7 +76,7 @@ class WimpyTime_2 {
 
 
 // int main_adapter( void )     
-int main()
+int main_adapter_basic()
 {
    WimpyTime  newT;                     
    char*      ptr;                      
@@ -86,7 +86,7 @@ int main()
    WimpyTime_2 newT2;
    char*      ptr2;                      
    ptr2= newT2.getTime();
-   cout << "new interface('hasa' instance) time is "<< ptr << endl;
+   cout << "new interface('has_a' instance) time is "<< ptr << endl;
 
 
    return 0;

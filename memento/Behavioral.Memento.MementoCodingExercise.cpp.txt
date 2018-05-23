@@ -95,7 +95,7 @@ namespace {
 
 }  // namespace
 
-int main(int ac, char* av[])
+int main_memento_Exercise(int ac, char* av[])
 {
   //::testing::GTEST_FLAG(catch_exceptions) = false;
   testing::InitGoogleTest(&ac, av);

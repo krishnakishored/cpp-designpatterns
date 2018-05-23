@@ -90,7 +90,7 @@ struct PhoneStateMachine : state_machine_def<PhoneStateMachine>
 
 
 
-int main()
+int main_State()
 {
   msm::back::state_machine<PhoneStateMachine> phone;
 

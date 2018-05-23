@@ -78,7 +78,7 @@ public:
   }
 };
 
-int main(int ac, char* av[])
+int main_composite_arraybackedprops(int ac, char* av[])
 {
   Creature orc;
   orc.set_strength(16);

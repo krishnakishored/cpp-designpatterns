@@ -54,7 +54,6 @@ public:
 };
 
 int main_legacy() 
-// int main()
 {
    Rectangle*  r = new RectangleAdapter( 120, 200, 60, 40 );
    r->draw();
@@ -131,7 +130,6 @@ ExecuteInterface** initialize()
 }
 
 int main_external_polymorphism( void ) 
-//int main( void ) 
 {
 
    //

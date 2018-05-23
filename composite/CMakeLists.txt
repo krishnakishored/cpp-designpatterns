@@ -1,2 +1,3 @@
 # add_library(libcomposite structural_composite_graphics.h   structural_composite_neurons.cpp structural_composite_arraybackedprops.cpp)
 
+add_library(libcomposite structural_composite_vince.cpp structural_composite_vince_2.cpp)

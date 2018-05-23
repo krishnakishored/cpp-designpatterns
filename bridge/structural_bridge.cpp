@@ -72,7 +72,7 @@ void bridge()
   raster_circle.draw();
 }
 
-int main()
+int main_bridge()
 {
   // pimpl
   // binary interfaces are fragile; this removes most of the internals to a separate class

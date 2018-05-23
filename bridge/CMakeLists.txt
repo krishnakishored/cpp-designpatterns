@@ -1,1 +1,1 @@
-add_library(libbridge structural_bridge.cpp structural_bridge_person.cpp structural_bridge_person.h)
+add_library(libbridge structural_bridge.cpp structural_bridge_person.cpp structural_bridge_vince.cpp)

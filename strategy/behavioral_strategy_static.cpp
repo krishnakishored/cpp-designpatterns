@@ -74,7 +74,7 @@ private:
   LS list_strategy;
 };
 
-int main()
+int main_strategy_static()
 {
   // markdown
   TextProcessor<MarkdownListStrategy> tpm;

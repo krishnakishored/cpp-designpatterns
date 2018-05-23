@@ -82,7 +82,7 @@ private:
   vector<TextRange> formatting;
 };
 
-int main(int argc, char* argv[])
+int main_flyweight_capitalize(int argc, char* argv[])
 {
   FormattedText ft("This is a brave new world");
   ft.capitalize(10, 15);

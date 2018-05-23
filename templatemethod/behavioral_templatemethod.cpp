@@ -60,7 +60,7 @@ private:
 	int turns{ 0 }, max_turns{ 10 };
 };
 
-int main()
+int main_TemplateMethod()
 {
 	Chess chess;
 	chess.run();

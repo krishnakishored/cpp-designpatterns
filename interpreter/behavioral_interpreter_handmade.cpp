@@ -142,7 +142,7 @@ vector<Token> lex(const string& input)
   return result;
 }
 
-int main()
+int main_interpreter()
 {
   string input{ "(13-4)-(12+1)" }; // see if you can make nested braces work
   auto tokens = lex(input);

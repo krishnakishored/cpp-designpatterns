@@ -94,7 +94,7 @@ namespace {
 
 // ERROR ON UDEMY'S END, POST AGAIN
 
-int main(int ac, char* av[])
+int main_strategy_exercise(int ac, char* av[])
 {
   //::testing::GTEST_FLAG(catch_exceptions) = false;
   testing::InitGoogleTest(&ac, av);
