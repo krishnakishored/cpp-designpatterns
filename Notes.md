@@ -21,7 +21,7 @@
 
 > Written with [StackEdit](https://stackedit.io/)
 
-# ** Design Patterns - Motivations **
+## Design Patterns - Motivations
 
 #### Builder
     When construction gets a little bit complicated

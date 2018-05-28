@@ -131,7 +131,7 @@ public:
 };
 
 
-int main() {
+int main_bridge_vince() {
    Time*  times[3];
    times[0] = new Time( 14, 30 );
    times[1] = new CivilianTime( 2, 30, 1 );

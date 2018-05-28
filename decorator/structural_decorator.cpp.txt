@@ -19,9 +19,7 @@ struct Circle : Shape
   Circle(){}
 
   explicit Circle(const float radius)
-    : radius{radius}
-  {
-  }
+    : radius(radius){}
 
   void resize(float factor)
   {
@@ -43,9 +41,7 @@ struct Square : Shape
   Square(){}
 
   explicit Square(const float side)
-    : side{side}
-  {
-  }
+    : side(side){}
 
   string str() const override
   {
@@ -66,10 +62,7 @@ struct ColoredShape : Shape
   string color;
 
   ColoredShape(Shape& shape, const string& color)
-    : shape{shape},
-      color{color}
-  {
-  }
+    : shape(shape), color(color){}
 
   string str() const override
   {
@@ -171,7 +164,7 @@ void mixin_inheritance()
   green_circle.radius = 123;
   cout << green_circle.str() << endl;
 
-  TransparentShape2<ColoredShape2<Square>> blue_invisible_square{ 0 };
+  TransparentShape2<ColoredShape2<Square> > blue_invisible_square(0);
   blue_invisible_square.color = "blue";
   blue_invisible_square.side = 321;
   cout << blue_invisible_square.str() << endl;
@@ -183,8 +176,8 @@ struct Logger
   string name;
 
   Logger(const function<void()>& func, const string& name)
-    : func{func},
-      name{name}
+    : func(func),
+      name(name)
   {
   }
 
@@ -203,10 +196,8 @@ struct Logger2
   string name;
 
   Logger2(const Func& func, const string& name)
-    : func{func},
-      name{name}
-  {
-  }
+    : func(func),
+      name(name){}
 
   void operator()() const
   {
