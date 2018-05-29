@@ -22,6 +22,7 @@ add_subdirectory(bridge)
 add_subdirectory(decorator)
 add_subdirectory(composite) 
 add_subdirectory(flyweight)
+add_subdirectory(facade)
 add_subdirectory(chainofresponsibilty)
 add_subdirectory(command)
 add_subdirectory(interpreter)
@@ -34,7 +35,7 @@ add_subdirectory(visitor)
 
 # add_executable(${PROJECT_NAME} ${SOURCE})
 add_executable(${PROJECT_NAME} hello.cpp)
-target_link_libraries(${PROJECT_NAME} libsolid libadapter libbuilder libcomposite libfactories libprototype libsingleton libbridge libdecorator libflyweight libchainofresponsibility libcommand libinterpreter libiterator libmediator libstate libstrategy libtemplatemethod libvisitor)
+target_link_libraries(${PROJECT_NAME} libsolid libadapter libbuilder libcomposite libfacade libfactories libprototype libsingleton libbridge libdecorator libflyweight libchainofresponsibility libcommand libinterpreter libiterator libmediator libstate libstrategy libtemplatemethod libvisitor)
 
 
 # sets GTEST_INCLUDE_DIRS and GTEST_LIBRARIES
