@@ -1,1 +1,2 @@
-add_library(libflyweight structural_flyweight_capitalize.cpp structural_flyweight.cpp)
+add_library(libflyweight  structural_flyweight_vince.cpp)
+# add_library(libflyweight structural_flyweight_capitalize.cpp structural_flyweight.cpp structural_flyweight_vince.cpp)

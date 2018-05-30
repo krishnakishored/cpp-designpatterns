@@ -225,7 +225,7 @@ public:
    void read(  string& );
 };
 
-int main( void ) {
+int main_decorator_vince_2( void ) {
    Interface* object = new Wrapper( new Wrapper( new Wrapper(
                           new Core(), "123" ), "abc" ), "987" );
    string buf;
